@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Apply Shojumaru as the default font */
+body {
+  font-family: 'Shojumaru', cursive;
+}
+
+.stroke-yellow {
+    font-weight: 20; 
+    color: #350301; /* Amber */
+    -webkit-text-stroke: 4px #FDE63B; /* Yellow */
+    font-size: 85px;
+    
+  }
+  
 
