@@ -4,7 +4,7 @@ import NavButton from "./NavButton";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Scroll to section smoothly
+ 
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
