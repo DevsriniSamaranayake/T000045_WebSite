@@ -16,5 +16,18 @@ body {
     font-size: 80px;
     
   }
+  .stroke-token {
+    font-weight: 20; 
+    color: #350301; /* Amber */
+    -webkit-text-stroke: 4px #FDE63B; /* Yellow */
+    font-size: 60px;
+    
+  }
+  .stroke-main {
+    font-weight: 20; 
+    color: #350301; /* Amber */
+    -webkit-text-stroke: 4px #FDE63B; /* Yellow */
+    font-size: 100px;
+    
+  }
   
-

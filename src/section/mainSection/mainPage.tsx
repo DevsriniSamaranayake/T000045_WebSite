@@ -12,12 +12,12 @@ const MainPage = () => {
         >
 
             <div className="items-center mx-auto">
-            <Navbar /> 
+            {/* <Navbar />  */}
             </div>
           
           
 
-            <div className="w-full md:w-1/2 flex flex-col items-center text-center max-w-3xl mx-auto">
+            <div className="w-full md:w-1/2 flex flex-col items-center text-center  mx-auto">
                 <h1 className="text-9xl sm:text-6xl md:text-8xl xl:text-9xl font-bold stroke-main mt-8 md:mt-0 mb-8">
                   Floki Coin 
                 </h1>
