@@ -15,7 +15,7 @@ const InputButton: React.FC<InputButtonProps> = ({ type = "text", placeholder, v
       placeholder={placeholder}
       value={value}
       onChange={onChange}
-      className={` px-1 py-3 border rounded-full focus:outline-none focus:ring-2 focus:ring-amber-500 bg-amber-100 text-amber-900 placeholder-zinc-400 ${className}`}
+      className={` px-1 py-3 border rounded-full focus:outline-none focus:ring-2 focus:ring-amber-500 bg-[#FFFBDE] text-[#350301] placeholder-[#9B9B9B] ${className}`}
     />
   );
 };
